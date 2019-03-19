@@ -23,7 +23,7 @@ ston*ston::single = NULL;
 int main()
 {
 	ston *s1, *s2;
-	s1 = ston::getInstance();
+	s1 = ston::getInstance();//one time instance create
 	s2 = ston::getInstance();
 
 	return 0;	
